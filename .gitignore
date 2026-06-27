@@ -1,0 +1,29 @@
+# Data - jamais sur GitHub
+data/raw/
+data/processed/
+
+# Environnement virtuel
+credit_scoring_env/
+venv/
+env/
+
+# Modèles sauvegardés (trop lourds)
+models/*.pkl
+models/*.joblib
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# macOS
+.DS_Store
+
+# Variables d'environnement
+.env
